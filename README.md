@@ -3,10 +3,27 @@
 > Plataforma cross-platform de monitoramento de temperatura e umidade do solo, desenvolvida em Flutter com arquitetura MVVM.
 
 ---
+## 👥 Devs Integrantes
 
-## 📱 Sobre o projeto
+| Nome | RM |
+|---|---|
+| Anny Pereira | 553793 | 
+| Giovanna Makida | 552852 | 
+| Katharine Fernandes | 552673 | 
 
-O **ORBIS** é uma aplicação Flutter que permite consultar em tempo real a **temperatura e umidade do solo** de qualquer localização do mundo, integrando-se à API gratuita do [Open-Meteo](https://open-meteo.com/).
+---
+
+## 🎯 Global Solution
+
+A Nova Corrida Espacial propõe o uso de tecnologias espaciais para gerar impacto positivo na sociedade. O ORBIS responde a esse desafio utilizando dados de sensoriamento remoto e APIs de observação da Terra para democratizar o acesso a informações climáticas urbanas.
+
+---
+
+## 📋 Descrição da Solução
+
+O **ORBIS** é uma plataforma de monitoramento climático focada no fenômeno das **ilhas de calor urbanas** — o aumento progressivo da temperatura em áreas urbanas causado pela substituição de vegetação por concreto e asfalto.
+
+A solução integra dados da **API Open-Meteo** para exibir a temperatura do solo em tempo real e apresenta recomendações orientativas ao usuário conforme o nível de calor detectado.
 
 O projeto está alinhado com as **ODSs da ONU**:
 - 🏙️ **ODS 11** — Cidades e Comunidades Sustentáveis
@@ -93,47 +110,6 @@ shared_preferences: ^2.2.3 # Persistência local
 
 ---
 
-## 🚀 Como rodar
-
-### Pré-requisitos
-- Flutter SDK `>=3.0.0`
-- Google Chrome (para web) ou Visual Studio com C++ (para Windows)
-
-### Instalação
-
-```bash
-# Clone o repositório
-git clone https://github.com/seu-usuario/orbis.git
-cd orbis
-
-# Instale as dependências
-flutter pub get
-```
-
-### Executar
-
-```bash
-# Chrome Web
-flutter run -d chrome
-
-# Windows
-flutter run -d windows
-
-# Se ocorrer erro de CORS no Chrome (apenas em desenvolvimento)
-flutter run -d chrome --web-browser-flag "--disable-web-security"
-```
-
-### Build para produção
-
-```bash
-# Web
-flutter build web
-
-# Windows
-flutter build windows
-```
-
----
 
 ## 📸 Telas
 
@@ -142,18 +118,3 @@ flutter build windows
 | Campo de busca com autocomplete | Cards com temperatura, umidade e coordenadas | Dados completos, barra de risco e recomendações |
 
 ---
-
-## 🎓 Contexto acadêmico
-
-Projeto desenvolvido para a **Global Solution** da disciplina de **Desenvolvimento Cross Platform** — FIAP.
-
-**Tema:** Indústria Espacial  
-**Solução:** Monitoramento climático acessível para populações urbanas e periféricas
-
----
-
-## 👥 Público-alvo
-
-- Moradores de áreas urbanas e periferias
-- Comunidades interessadas em indicadores ambientais
-- Líderes comunitários e gestores públicos
